@@ -11,10 +11,17 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
+    var mainWindowController: MainWindowController?
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        // Create a Window Controller
+        let mainWindowController = MainWindowController()
+        
+        // Put the window of the WindowController on the screen
+        mainWindowController.showWindow(self)
+        
+        // Set the property to point to the WindowController
+        self.mainWindowController = mainWindowController
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -23,4 +30,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-

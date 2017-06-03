@@ -11,6 +11,8 @@
 		EB5CD7501EE0E2EA00EECB60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5CD74F1EE0E2EA00EECB60 /* ViewController.swift */; };
 		EB5CD7521EE0E2EA00EECB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5CD7511EE0E2EA00EECB60 /* Assets.xcassets */; };
 		EB5CD7551EE0E2EA00EECB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5CD7531EE0E2EA00EECB60 /* Main.storyboard */; };
+		EB5CD75E1EE0E35300EECB60 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5CD75C1EE0E35300EECB60 /* MainWindowController.swift */; };
+		EB5CD75F1EE0E35300EECB60 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5CD75D1EE0E35300EECB60 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EB5CD7511EE0E2EA00EECB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB5CD7541EE0E2EA00EECB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB5CD7561EE0E2EA00EECB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5CD75C1EE0E35300EECB60 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		EB5CD75D1EE0E35300EECB60 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EB5CD7511EE0E2EA00EECB60 /* Assets.xcassets */,
 				EB5CD7531EE0E2EA00EECB60 /* Main.storyboard */,
 				EB5CD7561EE0E2EA00EECB60 /* Info.plist */,
+				EB5CD75C1EE0E35300EECB60 /* MainWindowController.swift */,
+				EB5CD75D1EE0E35300EECB60 /* MainWindowController.xib */,
 			);
 			path = SpeakLine;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB5CD7521EE0E2EA00EECB60 /* Assets.xcassets in Resources */,
+				EB5CD75F1EE0E35300EECB60 /* MainWindowController.xib in Resources */,
 				EB5CD7551EE0E2EA00EECB60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +141,7 @@
 			files = (
 				EB5CD7501EE0E2EA00EECB60 /* ViewController.swift in Sources */,
 				EB5CD74E1EE0E2EA00EECB60 /* AppDelegate.swift in Sources */,
+				EB5CD75E1EE0E35300EECB60 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
